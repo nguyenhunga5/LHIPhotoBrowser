@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_17"
                BuildableName = "IPhotoBrowser.framework"
-               BlueprintName = "IPhotoBrowser"
-               ReferencedContainer = "container:IPhotoBrowser.xcodeproj">
+               BlueprintName = "LHIPhotoBrowser"
+               ReferencedContainer = "container:LHIPhotoBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_24"
-               BuildableName = "IPhotoBrowserTests.xctest"
-               BlueprintName = "IPhotoBrowserTests"
-               ReferencedContainer = "container:IPhotoBrowser.xcodeproj">
+               BuildableName = "LHIPhotoBrowserTests.xctest"
+               BlueprintName = "LHIPhotoBrowserTests"
+               ReferencedContainer = "container:LHIPhotoBrowser.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "OBJ_17"
             BuildableName = "IPhotoBrowser.framework"
-            BlueprintName = "IPhotoBrowser"
-            ReferencedContainer = "container:IPhotoBrowser.xcodeproj">
+            BlueprintName = "LHIPhotoBrowser"
+            ReferencedContainer = "container:LHIPhotoBrowser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,8 +66,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "OBJ_17"
             BuildableName = "IPhotoBrowser.framework"
-            BlueprintName = "IPhotoBrowser"
-            ReferencedContainer = "container:IPhotoBrowser.xcodeproj">
+            BlueprintName = "LHIPhotoBrowser"
+            ReferencedContainer = "container:LHIPhotoBrowser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,8 +84,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "OBJ_17"
             BuildableName = "IPhotoBrowser.framework"
-            BlueprintName = "IPhotoBrowser"
-            ReferencedContainer = "container:IPhotoBrowser.xcodeproj">
+            BlueprintName = "LHIPhotoBrowser"
+            ReferencedContainer = "container:LHIPhotoBrowser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
