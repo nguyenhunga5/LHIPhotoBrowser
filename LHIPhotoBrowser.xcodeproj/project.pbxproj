@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C8983F51ECB12C500CCD0E8 /* LHIPhotoBrowser_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LHIPhotoBrowser_Info.plist; sourceTree = "<group>"; };
 		9312AD8C1E5F327E00BEFD77 /* IPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhoto.swift; sourceTree = "<group>"; };
 		9312AD8F1E5F394400BEFD77 /* IPhotoNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhotoNavigationItem.swift; sourceTree = "<group>"; };
 		935281811E5CAA4F006481EA /* IPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhotoBrowser.h; sourceTree = "<group>"; };
@@ -49,7 +50,7 @@
 		935281A61E5CAD0A006481EA /* IPhotoWebImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhotoWebImageCache.swift; sourceTree = "<group>"; };
 		OBJ_12 /* IPhotoBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhotoBrowserTests.swift; sourceTree = "<group>"; };
 		OBJ_15 /* IPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_16 /* IPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = IPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_16 /* LHIPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = LHIPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_15 /* IPhotoBrowser.framework */,
-				OBJ_16 /* IPhotoBrowserTests.xctest */,
+				OBJ_16 /* LHIPhotoBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -171,6 +172,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				4C8983F51ECB12C500CCD0E8 /* LHIPhotoBrowser_Info.plist */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
@@ -195,9 +197,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_17 /* IPhotoBrowser */ = {
+		OBJ_17 /* LHIPhotoBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "IPhotoBrowser" */;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "LHIPhotoBrowser" */;
 			buildPhases = (
 				OBJ_21 /* Sources */,
 				OBJ_23 /* Frameworks */,
@@ -206,14 +208,14 @@
 			);
 			dependencies = (
 			);
-			name = IPhotoBrowser;
+			name = LHIPhotoBrowser;
 			productName = IPhotoBrowser;
 			productReference = OBJ_15 /* IPhotoBrowser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_24 /* IPhotoBrowserTests */ = {
+		OBJ_24 /* LHIPhotoBrowserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "IPhotoBrowserTests" */;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "LHIPhotoBrowserTests" */;
 			buildPhases = (
 				OBJ_28 /* Sources */,
 				OBJ_30 /* Frameworks */,
@@ -223,9 +225,9 @@
 			dependencies = (
 				OBJ_32 /* PBXTargetDependency */,
 			);
-			name = IPhotoBrowserTests;
+			name = LHIPhotoBrowserTests;
 			productName = IPhotoBrowserTests;
-			productReference = OBJ_16 /* IPhotoBrowserTests.xctest */;
+			productReference = OBJ_16 /* LHIPhotoBrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "IPhotoBrowser" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "LHIPhotoBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -253,8 +255,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_17 /* IPhotoBrowser */,
-				OBJ_24 /* IPhotoBrowserTests */,
+				OBJ_17 /* LHIPhotoBrowser */,
+				OBJ_24 /* LHIPhotoBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +294,7 @@
 /* Begin PBXTargetDependency section */
 		OBJ_32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_17 /* IPhotoBrowser */;
+			target = OBJ_17 /* LHIPhotoBrowser */;
 			targetProxy = 930325281E563E9000A6B9A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -309,11 +311,11 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = IPhotoBrowser.xcodeproj/IPhotoBrowser_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LHIPhotoBrowser_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = IPhotoBrowser;
+				PRODUCT_BUNDLE_IDENTIFIER = LHIPhotoBrowser;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -333,11 +335,11 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = IPhotoBrowser.xcodeproj/IPhotoBrowser_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LHIPhotoBrowser_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = IPhotoBrowser;
+				PRODUCT_BUNDLE_IDENTIFIER = LHIPhotoBrowser;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_VERSION = 3.0;
@@ -355,10 +357,11 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = IPhotoBrowser.xcodeproj/IPhotoBrowserTests_Info.plist;
+				INFOPLIST_FILE = IPhotoBrowser.xcodeproj/LHIPhotoBrowser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = LHIPhotoBrowserTests;
 				TARGET_NAME = IPhotoBrowserTests;
 			};
 			name = Debug;
@@ -373,10 +376,11 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = IPhotoBrowser.xcodeproj/IPhotoBrowserTests_Info.plist;
+				INFOPLIST_FILE = IPhotoBrowser.xcodeproj/LHIPhotoBrowser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = LHIPhotoBrowserTests;
 				TARGET_NAME = IPhotoBrowserTests;
 			};
 			name = Release;
@@ -428,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_18 /* Build configuration list for PBXNativeTarget "IPhotoBrowser" */ = {
+		OBJ_18 /* Build configuration list for PBXNativeTarget "LHIPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_19 /* Debug */,
@@ -437,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "IPhotoBrowser" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "LHIPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
@@ -446,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_25 /* Build configuration list for PBXNativeTarget "IPhotoBrowserTests" */ = {
+		OBJ_25 /* Build configuration list for PBXNativeTarget "LHIPhotoBrowserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_26 /* Debug */,

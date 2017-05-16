@@ -22,7 +22,7 @@ Adding the following to your `Podfile` and running `pod install`:
 
 ```Ruby
 use_frameworks!
-pod 'IPhotoBrowser'
+pod 'LHIPhotoBrowser'
 ```
 
 ### import

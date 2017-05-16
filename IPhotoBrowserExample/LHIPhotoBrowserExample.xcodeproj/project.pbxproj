@@ -27,8 +27,6 @@
 		ED4D48751E542F110027707D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4D48741E542F110027707D /* Photos.framework */; };
 		ED4D487E1E543F560027707D /* AssetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D487C1E543F560027707D /* AssetCollectionViewCell.swift */; };
 		ED4D487F1E543F560027707D /* AssetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4D487D1E543F560027707D /* AssetCollectionViewCell.xib */; };
-		ED6A0C891E55524D00582780 /* IPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A0C881E55524100582780 /* IPhotoBrowser.framework */; };
-		ED6A0C8A1E55524D00582780 /* IPhotoBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A0C881E55524100582780 /* IPhotoBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED6A0C911E55585500582780 /* ImageUrlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A0C8F1E55585500582780 /* ImageUrlViewController.storyboard */; };
 		ED6A0C921E55585500582780 /* ImageUrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A0C901E55585500582780 /* ImageUrlViewController.swift */; };
 		ED6A0C971E5559AC00582780 /* WebImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A0C951E5559AC00582780 /* WebImageTableViewCell.swift */; };
@@ -36,26 +34,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9303253D1E563F4800A6B9A2 /* PBXContainerItemProxy */ = {
+		4C8983FC1ECB135900CCD0E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ED6A0C831E55524100582780 /* IPhotoBrowser.xcodeproj */;
+			containerPortal = 4C8983F71ECB135800CCD0E8 /* LHIPhotoBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_15;
+			remoteInfo = LHIPhotoBrowser;
+		};
+		4C8983FE1ECB135900CCD0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C8983F71ECB135800CCD0E8 /* LHIPhotoBrowser.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_16;
-			remoteInfo = IPhotoBrowserTests;
-		};
-		ED6A0C871E55524100582780 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED6A0C831E55524100582780 /* IPhotoBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ED6A0C751E5551D400582780;
-			remoteInfo = IPhotoBrowser;
-		};
-		ED6A0C8B1E55524D00582780 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED6A0C831E55524100582780 /* IPhotoBrowser.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_17;
-			remoteInfo = IPhotoBrowser;
+			remoteInfo = LHIPhotoBrowserTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,7 +57,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ED6A0C8A1E55524D00582780 /* IPhotoBrowser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,12 +64,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C8983F71ECB135800CCD0E8 /* LHIPhotoBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LHIPhotoBrowser.xcodeproj; path = ../LHIPhotoBrowser.xcodeproj; sourceTree = "<group>"; };
 		937FFC771E57321D0061ECC1 /* HorizontalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalViewController.swift; path = Sources/View/Controller/Horizontal/HorizontalViewController.swift; sourceTree = "<group>"; };
 		937FFC791E57323C0061ECC1 /* HorizontalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HorizontalViewController.storyboard; path = Sources/View/Controller/Horizontal/HorizontalViewController.storyboard; sourceTree = "<group>"; };
 		ED2A2E501E5A7FF900F1A8B0 /* PH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PH.swift; path = Sources/Utility/PH.swift; sourceTree = "<group>"; };
 		ED2A2E511E5A7FF900F1A8B0 /* PHPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PHPhoto.swift; path = Sources/Utility/PHPhoto.swift; sourceTree = "<group>"; };
 		ED2A2E521E5A7FF900F1A8B0 /* PHUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PHUtility.swift; path = Sources/Utility/PHUtility.swift; sourceTree = "<group>"; };
-		ED4D48241E5414210027707D /* IPhotoBrowserExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPhotoBrowserExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4D48241E5414210027707D /* LHIPhotoBrowserExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHIPhotoBrowserExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4D483B1E54146C0027707D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 		ED4D483C1E54146C0027707D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		ED4D483F1E5414760027707D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Sources/AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +87,6 @@
 		ED4D48741E542F110027707D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		ED4D487C1E543F560027707D /* AssetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetCollectionViewCell.swift; path = Sources/View/CollectionViewCell/AssetCollectionViewCell.swift; sourceTree = "<group>"; };
 		ED4D487D1E543F560027707D /* AssetCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AssetCollectionViewCell.xib; path = Sources/View/CollectionViewCell/AssetCollectionViewCell.xib; sourceTree = "<group>"; };
-		ED6A0C831E55524100582780 /* IPhotoBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IPhotoBrowser.xcodeproj; path = ../IPhotoBrowser.xcodeproj; sourceTree = "<group>"; };
 		ED6A0C8F1E55585500582780 /* ImageUrlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ImageUrlViewController.storyboard; path = Sources/View/Controller/Table/ImageUrlViewController.storyboard; sourceTree = "<group>"; };
 		ED6A0C901E55585500582780 /* ImageUrlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageUrlViewController.swift; path = Sources/View/Controller/Table/ImageUrlViewController.swift; sourceTree = "<group>"; };
 		ED6A0C951E5559AC00582780 /* WebImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebImageTableViewCell.swift; path = Sources/View/TableViewCell/WebImageTableViewCell.swift; sourceTree = "<group>"; };
@@ -108,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6A0C891E55524D00582780 /* IPhotoBrowser.framework in Frameworks */,
 				ED4D48751E542F110027707D /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8983F81ECB135800CCD0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8983FD1ECB135900CCD0E8 /* IPhotoBrowser.framework */,
+				4C8983FF1ECB135900CCD0E8 /* LHIPhotoBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		937FFC751E5731F50061ECC1 /* Horizontal */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +154,7 @@
 		ED4D48251E5414210027707D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED4D48241E5414210027707D /* IPhotoBrowserExample.app */,
+				ED4D48241E5414210027707D /* LHIPhotoBrowserExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,7 +216,7 @@
 		ED4D484B1E54151D0027707D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED6A0C831E55524100582780 /* IPhotoBrowser.xcodeproj */,
+				4C8983F71ECB135800CCD0E8 /* LHIPhotoBrowser.xcodeproj */,
 				ED4D48741E542F110027707D /* Photos.framework */,
 			);
 			name = Frameworks;
@@ -260,15 +258,6 @@
 			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
-		ED6A0C841E55524100582780 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ED6A0C881E55524100582780 /* IPhotoBrowser.framework */,
-				9303253E1E563F4800A6B9A2 /* IPhotoBrowserTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		ED6A0C941E55598600582780 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED4D48231E5414210027707D /* IPhotoBrowserExample */ = {
+		ED4D48231E5414210027707D /* LHIPhotoBrowserExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED4D48361E5414210027707D /* Build configuration list for PBXNativeTarget "IPhotoBrowserExample" */;
+			buildConfigurationList = ED4D48361E5414210027707D /* Build configuration list for PBXNativeTarget "LHIPhotoBrowserExample" */;
 			buildPhases = (
 				ED4D48201E5414210027707D /* Sources */,
 				ED4D48211E5414210027707D /* Frameworks */,
@@ -293,11 +282,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				ED6A0C8C1E55524D00582780 /* PBXTargetDependency */,
 			);
-			name = IPhotoBrowserExample;
+			name = LHIPhotoBrowserExample;
 			productName = IPhotoBrowserExample;
-			productReference = ED4D48241E5414210027707D /* IPhotoBrowserExample.app */;
+			productReference = ED4D48241E5414210027707D /* LHIPhotoBrowserExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -308,16 +296,16 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = hryk224;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					ED4D48231E5414210027707D = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = ED4D481F1E5414210027707D /* Build configuration list for PBXProject "IPhotoBrowserExample" */;
+			buildConfigurationList = ED4D481F1E5414210027707D /* Build configuration list for PBXProject "LHIPhotoBrowserExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -330,30 +318,30 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = ED6A0C841E55524100582780 /* Products */;
-					ProjectRef = ED6A0C831E55524100582780 /* IPhotoBrowser.xcodeproj */;
+					ProductGroup = 4C8983F81ECB135800CCD0E8 /* Products */;
+					ProjectRef = 4C8983F71ECB135800CCD0E8 /* LHIPhotoBrowser.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				ED4D48231E5414210027707D /* IPhotoBrowserExample */,
+				ED4D48231E5414210027707D /* LHIPhotoBrowserExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9303253E1E563F4800A6B9A2 /* IPhotoBrowserTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = IPhotoBrowserTests.xctest;
-			remoteRef = 9303253D1E563F4800A6B9A2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		ED6A0C881E55524100582780 /* IPhotoBrowser.framework */ = {
+		4C8983FD1ECB135900CCD0E8 /* IPhotoBrowser.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = IPhotoBrowser.framework;
-			remoteRef = ED6A0C871E55524100582780 /* PBXContainerItemProxy */;
+			remoteRef = 4C8983FC1ECB135900CCD0E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C8983FF1ECB135900CCD0E8 /* LHIPhotoBrowserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LHIPhotoBrowserTests.xctest;
+			remoteRef = 4C8983FE1ECB135900CCD0E8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -400,14 +388,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ED6A0C8C1E55524D00582780 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IPhotoBrowser;
-			targetProxy = ED6A0C8B1E55524D00582780 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ED4D48341E5414210027707D /* Debug */ = {
@@ -509,10 +489,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/IPhotoBrowserExample/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.hryk224.IPhotoBrowserExample;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beecow.LHIPhotoBrowserExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -524,10 +506,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/IPhotoBrowserExample/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.hryk224.IPhotoBrowserExample;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beecow.LHIPhotoBrowserExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -535,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED4D481F1E5414210027707D /* Build configuration list for PBXProject "IPhotoBrowserExample" */ = {
+		ED4D481F1E5414210027707D /* Build configuration list for PBXProject "LHIPhotoBrowserExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED4D48341E5414210027707D /* Debug */,
@@ -544,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED4D48361E5414210027707D /* Build configuration list for PBXNativeTarget "IPhotoBrowserExample" */ = {
+		ED4D48361E5414210027707D /* Build configuration list for PBXNativeTarget "LHIPhotoBrowserExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED4D48371E5414210027707D /* Debug */,
