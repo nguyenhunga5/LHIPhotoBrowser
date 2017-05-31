@@ -1,0 +1,6 @@
+framework module Pods_LHIPhotoBrowser {
+  umbrella header "Pods-LHIPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

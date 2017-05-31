@@ -19,6 +19,8 @@
 		935281A41E5CACFC006481EA /* UIImageView+IPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935281A11E5CACFC006481EA /* UIImageView+IPhotoBrowser.swift */; };
 		935281A51E5CACFC006481EA /* UIView+IPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935281A21E5CACFC006481EA /* UIView+IPhotoBrowser.swift */; };
 		935281A71E5CAD0A006481EA /* IPhotoWebImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935281A61E5CAD0A006481EA /* IPhotoWebImageCache.swift */; };
+		B3B1F6FA653D48643050A536 /* Pods_LHIPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356A61BDAA2E514A3B9B2089 /* Pods_LHIPhotoBrowser.framework */; };
+		EA7D44C96BC40FE79F8B99F3 /* Pods_LHIPhotoBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DE184FAB43A65F0F2ADAFF /* Pods_LHIPhotoBrowserTests.framework */; };
 		OBJ_29 /* IPhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* IPhotoBrowserTests.swift */; };
 		OBJ_31 /* IPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* IPhotoBrowser.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DE184FAB43A65F0F2ADAFF /* Pods_LHIPhotoBrowserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHIPhotoBrowserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B552C842CC7E21C7E6F9895 /* Pods-LHIPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHIPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHIPhotoBrowser/Pods-LHIPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		2573CCD801F29488D0D9A015 /* Pods-LHIPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHIPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHIPhotoBrowser/Pods-LHIPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		356A61BDAA2E514A3B9B2089 /* Pods_LHIPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHIPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8983F51ECB12C500CCD0E8 /* LHIPhotoBrowser_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LHIPhotoBrowser_Info.plist; sourceTree = "<group>"; };
+		681D6070B73C0983623D52BB /* Pods-LHIPhotoBrowserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHIPhotoBrowserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHIPhotoBrowserTests/Pods-LHIPhotoBrowserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9312AD8C1E5F327E00BEFD77 /* IPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhoto.swift; sourceTree = "<group>"; };
 		9312AD8F1E5F394400BEFD77 /* IPhotoNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhotoNavigationItem.swift; sourceTree = "<group>"; };
 		935281811E5CAA4F006481EA /* IPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhotoBrowser.h; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 		935281A11E5CACFC006481EA /* UIImageView+IPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+IPhotoBrowser.swift"; sourceTree = "<group>"; };
 		935281A21E5CACFC006481EA /* UIView+IPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IPhotoBrowser.swift"; sourceTree = "<group>"; };
 		935281A61E5CAD0A006481EA /* IPhotoWebImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhotoWebImageCache.swift; sourceTree = "<group>"; };
+		BFD01786A78438DD302745A7 /* Pods-LHIPhotoBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHIPhotoBrowserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHIPhotoBrowserTests/Pods-LHIPhotoBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
 		OBJ_12 /* IPhotoBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhotoBrowserTests.swift; sourceTree = "<group>"; };
 		OBJ_15 /* IPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_16 /* LHIPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = LHIPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				B3B1F6FA653D48643050A536 /* Pods_LHIPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +76,22 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_31 /* IPhotoBrowser.framework in Frameworks */,
+				EA7D44C96BC40FE79F8B99F3 /* Pods_LHIPhotoBrowserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BF12BCB1515BDD62655717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356A61BDAA2E514A3B9B2089 /* Pods_LHIPhotoBrowser.framework */,
+				16DE184FAB43A65F0F2ADAFF /* Pods_LHIPhotoBrowserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		930325291E563EAD00A6B9A2 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +162,17 @@
 			name = Protocol;
 			sourceTree = "<group>";
 		};
+		DE6154B677B98A2231C21E26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2573CCD801F29488D0D9A015 /* Pods-LHIPhotoBrowser.debug.xcconfig */,
+				1B552C842CC7E21C7E6F9895 /* Pods-LHIPhotoBrowser.release.xcconfig */,
+				681D6070B73C0983623D52BB /* Pods-LHIPhotoBrowserTests.debug.xcconfig */,
+				BFD01786A78438DD302745A7 /* Pods-LHIPhotoBrowserTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +207,8 @@
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
+				DE6154B677B98A2231C21E26 /* Pods */,
+				49BF12BCB1515BDD62655717 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,8 +233,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "LHIPhotoBrowser" */;
 			buildPhases = (
+				D516505CD470E775D748E384 /* [CP] Check Pods Manifest.lock */,
 				OBJ_21 /* Sources */,
 				OBJ_23 /* Frameworks */,
+				A0561F3E046611359249E589 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,8 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "LHIPhotoBrowserTests" */;
 			buildPhases = (
+				A9C433694416666232874957 /* [CP] Check Pods Manifest.lock */,
 				OBJ_28 /* Sources */,
 				OBJ_30 /* Frameworks */,
+				2EDC963AC687E767CF45D07A /* [CP] Embed Pods Frameworks */,
+				0DDEFAD16B62FBCCD3FC3C58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +298,84 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DDEFAD16B62FBCCD3FC3C58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHIPhotoBrowserTests/Pods-LHIPhotoBrowserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDC963AC687E767CF45D07A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHIPhotoBrowserTests/Pods-LHIPhotoBrowserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0561F3E046611359249E589 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHIPhotoBrowser/Pods-LHIPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C433694416666232874957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D516505CD470E775D748E384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -302,6 +417,7 @@
 /* Begin XCBuildConfiguration section */
 		OBJ_19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2573CCD801F29488D0D9A015 /* Pods-LHIPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -326,6 +442,7 @@
 		};
 		OBJ_20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B552C842CC7E21C7E6F9895 /* Pods-LHIPhotoBrowser.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -349,6 +466,7 @@
 		};
 		OBJ_26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681D6070B73C0983623D52BB /* Pods-LHIPhotoBrowserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -368,6 +486,7 @@
 		};
 		OBJ_27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD01786A78438DD302745A7 /* Pods-LHIPhotoBrowserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
