@@ -205,7 +205,7 @@ class IPhotoBrowserCollectionViewCell: UICollectionViewCell {
 
 // MARK: - Private
 private extension IPhotoBrowserCollectionViewCell {
-    dynamic func handleGestureImageDragging(_ gestureRecognizer: UIPanGestureRecognizer) {
+    @objc dynamic func handleGestureImageDragging(_ gestureRecognizer: UIPanGestureRecognizer) {
         guard let view = gestureRecognizer.view else { return }
         let point = gestureRecognizer.translation(in: view)
         switch gestureRecognizer.state {
@@ -244,12 +244,12 @@ private extension IPhotoBrowserCollectionViewCell {
         delegate?.cellImageViewDidDragging(self, ratio: ratio)
     }
     
-    dynamic func handleGestureImageSingleTap(_ gestureRecognizer: UITapGestureRecognizer) {
+    @objc dynamic func handleGestureImageSingleTap(_ gestureRecognizer: UITapGestureRecognizer) {
         self.isShowItems = self.isShowItems ? false : true
         delegate?.cellImageToggleItemsView(self, isShow: self.isShowItems)
     }
     
-    dynamic func handleGestureImageDoubleTap(_ gestureRecognizer: UITapGestureRecognizer) {
+    @objc dynamic func handleGestureImageDoubleTap(_ gestureRecognizer: UITapGestureRecognizer) {
         guard scrollView.minimumZoomScale == scrollView.zoomScale else {
             scrollView.setZoomScale(scrollView.minimumZoomScale, animated: true)
             return
@@ -345,7 +345,7 @@ final class PaddingLabel: UILabel {
         return CGSize(width: padding.left + padding.right, height: padding.top + padding.bottom)
     }
     override func drawText(in rect: CGRect) {
-        let newRect = UIEdgeInsetsInsetRect(rect, padding)
+        let newRect = rect.inset(by: padding)
         super.drawText(in: newRect)
     }
     override var intrinsicContentSize: CGSize {

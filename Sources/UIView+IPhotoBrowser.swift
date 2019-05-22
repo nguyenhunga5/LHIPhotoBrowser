@@ -23,7 +23,7 @@ extension UIView {
     func cornerRadiusAnimation(_ from: CGFloat, to: CGFloat, duration: CFTimeInterval) {
         layer.masksToBounds = true
         let animation = CABasicAnimation(keyPath: "cornerRadius")
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         animation.fromValue = from
         animation.toValue = to
         animation.duration = duration

@@ -27,13 +27,13 @@ final class IPhotoBrowserAnimatedTransition: NSObject, UIViewControllerAnimatedT
         return (operation != nil) ? .pushed : .presented
     }
     private var isPresent: Bool?
-    private var operation: UINavigationControllerOperation?
+    private var operation: UINavigationController.Operation?
     required init(isPresent: Bool, transitionDuration: TimeInterval = 0.35) {
         self.isPresent = isPresent
         self.transitionDuration = transitionDuration
         super.init()
     }
-    required init(operation: UINavigationControllerOperation, transitionDuration: TimeInterval = 0.35) {
+    required init(operation: UINavigationController.Operation, transitionDuration: TimeInterval = 0.35) {
         self.operation = operation
         self.transitionDuration = transitionDuration
         super.init()
