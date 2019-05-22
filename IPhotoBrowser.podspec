@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "IPhotoBrowser"
-  s.version      = "0.1.3"
+  s.version      = "0.2.0"
   s.summary      = "A simple iOS Instagram photo browser written in Swift."
   s.homepage     = "https://github.com/longhoang2984/LHIPhotoBrowser"
   s.screenshots  = "https://github.com/hryk224/IPhotoBrowser/wiki/images/sample1.gif"
