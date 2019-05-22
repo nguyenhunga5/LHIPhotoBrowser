@@ -8,6 +8,8 @@ Pod::Spec.new do |s|
   s.author             = { "hyyk224" => "hryk224@gmail.com" }
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/nguyenhunga5/LHIPhotoBrowser.git", :tag => s.version }
+  
+  s.swift_version = '4.2'
   s.source_files  = "Sources/*.{h,swift}"
   s.frameworks = "UIKit", "Photos"
   s.requires_arc = true
